@@ -127,3 +127,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  font-family: san-serif;
+  background-color: red;
+}
+
+header h1 {
+  text-align: center;
+}
