@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="Author" content="Sebastian Meza-Torres" />
     <meta name="keywords" content="YouTube, MaleyFrenk, podcast, project." />
@@ -14,15 +15,69 @@
   <body>
     <header>
       <h1>Welcome to MaleyFrenk's YouTube Channel!</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section>
-        <h2></h2>
+      <section class="video-carousel-section">
+        <h2>MaleyFrenk's Latest Videos</h2>
+        <div class="video-carousel">
+          <button class="carousel-button prev">&lt;</button>
+          <div class="carousel-container">
+            <div class="carousel-track">
+              <!-- Carousel begins here.-->
+              <div class="carousel-slide">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/v6Aq80dx_zs?si=eX0jf3KaWhhA8SKI"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="carousel-slide">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/WvhIMicQ1HI?si=bFRIhAJ9qHVr5c4l"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="carousel-slide">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/dmfNyYdVKgU?si=4WZvCAxPM-MrP2UD"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-button next">&gt;</button>
+        </div>
       </section>
     </main>
     <footer>
       <p>&copy; MaleyFrenk 2025</p>
     </footer>
+    <script src="project.js"></script>
   </body>
 </html>
 <!--TODO: find information on what mom wants me to do for her website.-->
