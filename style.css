@@ -249,6 +249,45 @@ h2 {
   right: -60px;
 }
 
+/* Newsletter Styles */
+.newsletter {
+  background: #f7f7f7;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+.newsletter h2 {
+  margin-bottom: 1rem;
+}
+.newsletter label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.newsletter button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.newsletter button[type="submit"]:hover {
+  background: #0056b3;
+}
 /* Footer Styles */
 footer {
   background-color: #333;

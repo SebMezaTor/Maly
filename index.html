@@ -4,17 +4,17 @@
     <link href="style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="Author" content="Sebastian Meza-Torres" />
-    <meta name="keywords" content="YouTube, MaleyFrenk, podcast, project." />
+    <meta name="keywords" content="YouTube, MalyFrenk, podcast, project." />
     <meta
       name="description"
-      content="This is a project for MaleyFrenks YouTube channel."
+      content="This is a project for MalyFrenks YouTube channel."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MaleyFrenk Website</title>
+    <title>MalyFrenk Website</title>
   </head>
   <body>
     <header>
-      <h1>Welcome to MaleyFrenk's YouTube Channel!</h1>
+      <h1>Welcome to MalyFrenk's YouTube Channel!</h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -26,7 +26,7 @@
     </header>
     <main>
       <section class="video-carousel-section">
-        <h2>MaleyFrenk's Latest Videos</h2>
+        <h2>MalyFrenk's Latest Videos</h2>
         <div class="video-carousel">
           <button class="carousel-button prev">&lt;</button>
           <div class="carousel-container">
@@ -73,16 +73,30 @@
           <button class="carousel-button next">&gt;</button>
         </div>
       </section>
+      <section class="about-section">
+        <h2>About MalyFrenk</h2>
+        <p>
+          Join me on my journey as I share insights, stories, and experiences
+          through my YouTube channel.
+        </p>
+      </section>
+      <section class="newsletter">
+        <h2>Newsletter</h2>
+        <form>
+          <label for="newsletter-email">Enter Email Address:</label>
+          <input type="email" id="newsletter-email" name="email" required />
+          <button type="submit">Subscribe</button>
+          <div
+            id="newsletter-success"
+            style="display: none; color: green; margin-top: 1rem"
+          >
+            Thank you for subscribing!
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
       <div class="footer-content">
-        <div class="footer-section">
-          <h3>About MaleyFrenk</h3>
-          <p>
-            Join me on my journey as I share insights, stories, and experiences
-            through my YouTube channel.
-          </p>
-        </div>
         <div class="footer-section">
           <h3>Quick Links</h3>
           <ul>
@@ -119,7 +133,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 MaleyFrenk. All rights reserved.</p>
+        <p>&copy; 2025 MalyFrenk. All rights reserved.</p>
       </div>
     </footer>
     <!-- Font Awesome for social icons -->
