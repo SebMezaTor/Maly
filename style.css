@@ -131,7 +131,7 @@ table {
 body {
   font-family: san-serif;
   min-height: 100vh;
-  min-width: 414px;
+  min-width: 500px;
   display: flex;
   flex-direction: column;
 }
